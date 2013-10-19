@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Υπολογισμός κόστους λειτουργίας επεξεργαστή</title>
+
+<link href="css/slickform.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.7.2.js"></script>
+<script src="js/Slickform.js"></script>
+</head>
+
+<body>
+
+<h1>Υπολογισμός κόστους λειτουργίας επεξεργαστή</h1>
+
+<p class="last"></p>
+
+<div class="slickwrap">
+
+	<div class="slickreporting">
+    
+    	<div class="successcontainer"></div>
+
+        <div class="errorcontainer">
+            
+            <div class="errorshutter"></div>
+            <div class="slickerror"></div>
+        
+        </div>
+            
+    </div>
+    
+    <form method="post" id="slickform" action="javascript:slickcontactparse();">
+    
+    	<fieldset>
+        
+        	<label><span>*</span>Ώρες λειτουργίας CPU </label>
+            <input id="hoursCpu" name="hoursCpu" type="text" value="">
+            <br />
+        	<label><span>*</span>Κόστος κιλοβατώρας</label>
+            <input id="costKilovat" name="costKilovat" type="text" value="">
+            
+            <br />
+        	<label><span>*</span>TDP</label>
+            <input id="tdp" name="tdp" type="text" value="">
+            
+            <br />
+            
+            <hr />
+            <input name="submit" type="submit" value="Υπολογισμός Κόστους" class="slickbutton">
+        
+        </fieldset>
+    
+    </form>
+
+
+</div>
+
+<div class="about">
+       <a href="https://github.com/falegk/Calculate-cost-your-processor-mode" target="_blank"> <img src="images/github.png" width="25px" height="25px" > Download the code </a>
+    </div>
+</body>
+</html>

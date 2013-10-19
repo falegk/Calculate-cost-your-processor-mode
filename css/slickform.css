@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	top:0;
+	margin:0px;
+	padding:40px 0px 40px 0px;
+	background-image: url(../images/bg.png);
+	background-repeat: repeat;
+}
+
+h1{
+	font-size:30pt;
+	text-align:center;
+	font-family: 'Lobster', cursive;
+	color: white;
+	text-shadow:0px 1px 2px black;
+	padding-bottom:20px;
+	margin:0px;
+}
+
+p{
+	font-size:12pt;
+	font-family: 'Droid Sans', sans-serif;
+	color: #666666;
+	text-align:center;
+	padding:4px 0px;
+	margin:0px;
+}
+
+a{
+	text-decoration: none;
+	color: #CB8331;
+}
+
+.about{
+	background-color: #DBEAF9;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4);
+    clear: both;
+    font-family: 'Lobster',cursive;
+    margin: 20px auto;
+    padding: 7px 10px;
+    width: 330px;
+}
+.last{
+	padding-bottom:40px;
+}
+
+.slickwrap{
+	width:300px;
+	padding:20px;
+	float:none;
+	margin:0px auto 0px auto;
+	min-height:100px;
+	border-radius:8px;
+	border:1px solid #EBEBEB;
+	box-shadow:0px 0px 0px 9px rgba(255,255,255,.5);
+	background-color:rgba(255,255,255,.8);
+	position:relative;
+}
+
+.slickwrap h2{
+	font-size:16pt;
+	font-family: 'Droid Sans', sans-serif;
+	color: #666666;
+	margin:0px;
+	padding:0px;
+}
+
+.slickwrap h3{
+	font-size:12pt;
+	font-family: 'Droid Sans', sans-serif;
+	color: #666666;
+	margin:0px;
+	padding:0px;
+}
+
+.slickwrap hr{
+	color:#DBDBDB;
+	background-color:#DBDBDB;
+	height:1px;
+	border:none;
+	padding:0px;
+	margin:15px 0px 25px 0px;
+	width:100%;
+}
+
+.slickwrap fieldset{
+	border:0px;
+}
+
+.slickwrap label{
+	font-size:12pt;
+	font-family: 'Droid Sans', sans-serif;
+	color: #666666;
+	width:70%;
+	display:inline-block;
+	float:left;
+	height:26px;
+	margin-bottom:20px;
+}
+
+.slickwrap label span{
+	font-size:9pt;
+	color: red;
+	padding-right:3px;
+}
+
+.slickwrap input, textarea, select{
+	width:20%;
+	margin:-7px 0px 20px 0px;
+	padding:7px 10px;
+	color:#666666;
+	background-color:#F5F5F5;
+	border:1px solid #CCC;
+	font-size:12pt;
+	font-family: 'Droid Sans', sans-serif;
+	border-radius:3px;
+}
+
+.slickwrap input:focus, textarea:focus, select:focus{
+	width:20%;
+	margin:-7px 0px 20px 0px;
+	padding:7px 10px;
+	color:#666666;
+	background-color:white;
+	border:1px solid #09F;
+	font-size:12pt;
+	font-family: 'Droid Sans', sans-serif;
+	border-radius:3px;
+}
+
+input[type=submit]{
+	margin-top:10px;
+	width:auto !important;
+	background-color:#666666;
+	color:white;
+	text-shadow:0px 1px #000;
+}
+
+input[type=submit]:hover{
+	width:auto !important;
+	background-color:#333;
+	color:#CCC;
+}
+
+.largertextarea, .largertextarea:focus{
+	width:65%;
+	margin-top:0px;
+}
+
+.areyouhuman, .areyouhuman:focus{
+	width:40px !important;
+}
+
+.largebr{
+	margin-top:20px;
+}
+
+.slickreporting{
+	width:90%;
+	position:absolute;
+	left: 30px;
+	bottom: 108px;
+}
+
+.successcontainer{
+	float:left;
+	width:90%;
+	margin: 10px 0px 10px 0px;
+	height:25px;
+	float:left;
+	padding:17px 0% 0px 15%;
+	background-image: url(../images/success.png);
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	font-size:12pt;
+	font-family: 'Droid Sans', sans-serif;
+	color:#349e1f;
+	display:none;
+}
+
+.errorcontainer{
+	float:left;
+	width:90%;
+	height:25px;
+	float:left;
+	padding:17px 0% 15px 15%;
+	background-image: url(../images/fail.png);
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	font-size:12pt;
+	font-family: 'Droid Sans', sans-serif;
+	color:#FF0000;
+	display:none;
+}
+
+@media screen and (max-width: 600px){
+	.slickwrap{width:98%;padding:20px 1%;border:0px;box-shadow:none;border-radius:0px;}
+	.slickwrap label{width:30%;}
+	.slickreporting{left: 15px;}
+	.successcontainer{width:85%;padding:17px 0% 0px 15%;}
+	.errorcontainer{width:85%;padding:17px 0% 0px 15%;}
+	
+}
