@@ -49,7 +49,7 @@ $(document).ready(function(){
 					var sumCost = ((tdp.val()*hoursCpu.val()) / 1000)*costKilovat.val();
 
 					$(".slickbutton").animate({marginTop:'50px'},1000).delay(6000).animate({marginTop:'0px'},1000);
-					$(".successcontainer").html("The total cost in euros is "+sumCost);
+					$(".successcontainer").html("The total cost in euros is "+sumCost+"€");
 					$(".successcontainer").delay(1200).fadeIn(1000).delay(10000).fadeOut(15000);
 					//$("#tdp").val('');
 					//$("#hoursCpu").val('');
