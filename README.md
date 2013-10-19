@@ -9,7 +9,7 @@ just run the file "intex.html"
 
 info
 ----
-Language: Greek<br/>
+Language: English<br/>
 Javascript,Ajax<br/>
 
 
