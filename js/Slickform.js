@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 			if (hoursCpu.val() == "" || isNaN(hoursCpu.val()) ) {
 				$(".slickbutton").animate({marginTop:'50px'},1000).delay(6000).animate({marginTop:'0px'},1000);
-				$(".errorcontainer").html('Παρακαλώ συμπληρόστε το πεδίο "Ώρες λειτουργίας CPU" μόνο με αριθμούς. ');
+				$(".errorcontainer").html('Please fill in the field "hours of operation CPU" only numbers. ');
 				$(".errorcontainer").delay(1200).fadeIn(1000).delay(4000).fadeOut(1000);
 				$('input[type=submit]', $("#slickform")).removeAttr('disabled');
 				return false;
@@ -26,7 +26,7 @@ $(document).ready(function(){
 			
 			if (costKilovat.val() == "" || isNaN(hoursCpu.val()) ) {
 				$(".slickbutton").animate({marginTop:'50px'},1000).delay(6000).animate({marginTop:'0px'},1000);
-				$(".errorcontainer").html('Παρακαλώ συμπληρόστε το πεδίο "Κόστος κιλοβατώρας" μόνο με αριθμούς. ');
+				$(".errorcontainer").html('Please fill in the field "Cost per kWh" only numbers. ');
 				$(".errorcontainer").delay(1200).fadeIn(1000).delay(4000).fadeOut(1000);
 				$('input[type=submit]', $("#slickform")).removeAttr('disabled');
 				return false;
@@ -34,7 +34,7 @@ $(document).ready(function(){
 
 			if (tdp.val() == "" || isNaN(tdp.val()) ) {
 				$(".slickbutton").animate({marginTop:'50px'},1000).delay(6000).animate({marginTop:'0px'},1000);
-				$(".errorcontainer").html('Παρακαλώ συμπληρόστε το πεδίο "TDP" μόνο με αριθμούς. ');
+				$(".errorcontainer").html('Please fill in the field "TDP" only numbers.');
 				$(".errorcontainer").delay(1200).fadeIn(1000).delay(4000).fadeOut(1000);
 				$('input[type=submit]', $("#slickform")).removeAttr('disabled');
 				return false;
@@ -49,7 +49,7 @@ $(document).ready(function(){
 					var sumCost = ((tdp.val()*hoursCpu.val()) / 1000)*costKilovat.val();
 
 					$(".slickbutton").animate({marginTop:'50px'},1000).delay(6000).animate({marginTop:'0px'},1000);
-					$(".successcontainer").html("Το συνολικό κόστος σε ευρώ ειναι "+sumCost);
+					$(".successcontainer").html("The total cost in euros is "+sumCost);
 					$(".successcontainer").delay(1200).fadeIn(1000).delay(10000).fadeOut(15000);
 					//$("#tdp").val('');
 					//$("#hoursCpu").val('');
