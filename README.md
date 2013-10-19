@@ -1,7 +1,8 @@
 Calculate cost your processor mode
 ==================================
 
-Work for the course "High Performance Systems"
+Work for the course "High Performance Systems"<br/>
+website demo: http://calculate-cost.deltasports.gr
 
 installation
 ------------
