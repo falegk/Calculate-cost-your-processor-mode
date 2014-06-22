@@ -11,7 +11,7 @@ just run the file "intex.html"
 info
 ----
 Language: English<br/>
-Javascript,Ajax<br/>
+Javascript<br/>
 
 
 ######The work is based on the form SlickForm from DERBY WEB DESIGN & DEVELOPMENT AGENCY.
