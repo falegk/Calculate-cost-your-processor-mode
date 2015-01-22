@@ -2,11 +2,7 @@ Calculate cost your processor mode
 ==================================
 
 Work for the course "High Performance Systems"<br/>
-website demo: http://calculate-cost.deltasports.gr
-
-installation
-------------
-just run the file "intex.html"
+website: http://calculate-cost-cpu.tonyf.eu/
 
 info
 ----
